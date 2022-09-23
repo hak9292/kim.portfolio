@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
+// import Logo from './Logo';
 import './index.scss';
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -13,7 +15,7 @@ const Home = () => {
         setTimeout(() => {
           setLetterClass('text-animate-hover')
         }, 4000)
-      }, [])
+      }, []);
 
     return (
         <>
@@ -42,7 +44,9 @@ const Home = () => {
                         Contact Me
                         </Link>
                 </div>
+                {/* <Logo /> */}
             </div>
+            <Loader type="pacman" />
         </>
     )
 }
