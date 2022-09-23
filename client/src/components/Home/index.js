@@ -44,9 +44,8 @@ const Home = () => {
                         Contact Me
                         </Link>
                 </div>
-                {/* <Logo /> */}
             </div>
-            <Loader type="pacman" />
+            <Loader type="triangle-skew-spin" />
         </>
     )
 }

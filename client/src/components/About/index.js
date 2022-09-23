@@ -32,9 +32,9 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>Paragraph Here</p>
-                    <p>Paragraph Here</p>
-                    <p>Paragraph Here</p>
+                    <p>You can call me Alex.</p>
+                    <p>Full stack web developer leveraging background in computer science and economics to provide unique perspectives on how end-users interact with websites and software platforms. Earned a certificate in Full Stack Web Development from the Georgia Institute of Technology Coding Boot Camp. Innovative problem-solver who is passionate about developing apps with a focus on mobile-first design and development. Strengths in creativity, teamwork, and building projects from ideation to execution.</p>
+                    <p>Technical Skills: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GitHub, MongoDB, MySQL, Express, React, Node, Handlebars, jQuery, Bootstrap</p>
                 </div>
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
@@ -59,7 +59,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="pacman" />
+            <Loader type="triangle-skew-spin" />
         </>
     )
 };
